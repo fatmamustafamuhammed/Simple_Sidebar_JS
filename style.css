@@ -1,0 +1,41 @@
+.div {
+    margin: 0;
+}
+
+.container {
+    width: 150px;
+    height: 50vh;
+    background: lightcoral;
+    color: white;
+}
+
+.container p {
+    padding: 5px 10px;
+}
+
+.container p:hover,
+button:hover {
+    cursor: pointer;
+    background: rgb(248, 168, 180);
+}
+
+button {
+    background: lightcoral;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+    width: 5.5%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#close {
+    position: absolute;
+    left: 170px;
+    border-left: 5px solid black;
+}
+
+.hide {
+    display: none;
+}
