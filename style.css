@@ -22,7 +22,6 @@ button:hover {
 button {
     background: lightcoral;
     color: white;
-    border: none;
     margin-bottom: 2px;
     width: 5.5%;
     height: 30px;
